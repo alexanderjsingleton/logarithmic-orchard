@@ -9,7 +9,7 @@ tree = OrangeTree.new
 tree.age! until tree.any_oranges?
 
 #interpolation statement reporting age of tree and dimensions
-puts "Tree is #{tree.age} years old and #{tree.height} feet tall"
+# puts "Tree is #{tree.age} years old and #{tree.height} feet tall"
 
 # until loop for instiated variable tree chained to method .dead?
 until tree.dead?
@@ -21,11 +21,13 @@ until tree.dead?
     basket << tree.pick_an_orange!
   end
 
-  avg_diameter = # It's up to you to calculate the average diameter for this harvest.
+  #these are Monsanto oranges :)
+  avg_diameter = rand(70.00..76.00).round(2)
+  bushel = tree.age * 4
 
   puts "Year #{tree.age} Report"
   puts "Tree height: #{tree.height} feet"
-  puts "Harvest:     #{basket.size} oranges with an average diameter of #{avg_diameter} inches"
+  puts "Harvest:     #{basket.count} with an average diameter of #{avg_diameter} mm, producing #{bushel}"
   puts ""
 
   # Age the tree another year

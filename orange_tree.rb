@@ -59,7 +59,10 @@ class OrangeTree
 
   def how_many_oranges
     @age / 2
+    # puts how_many_oranges
   end
+
+
 
 
   def any_oranges?
@@ -84,7 +87,7 @@ class Orange
   # set instance variable @diameter to constraint (rand *10 + 5) chained to floor
   # => this will round to whole lowest whole number
   # puts  @diameter = (rand * 10 + 5)#.floor 
-  puts  @diameter = (rand * 10 + 5).floor 
+  @diameter = (rand * 10 + 5).floor 
   end
 end
 
