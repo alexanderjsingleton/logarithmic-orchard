@@ -8,7 +8,7 @@ Let's create a toy program to model an orange tree growing over the years.  We p
 
 The tests in `orange_tree_spec.rb` show how all this might work together.
 
-##Objecctives
+##Objectives
 
 ###Objective 0 : Implement the OrangeTree and Orange classes
 
