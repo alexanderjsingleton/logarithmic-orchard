@@ -2,9 +2,7 @@
 
 ##Summary
 
-Sunny California grows oranges &mdash; mostly [Washington navel oranges](http://en.wikipedia.org/wiki/Orange_%28fruit%29#Navel_oranges) and [Valencia oranges](http://en.wikipedia.org/wiki/Valencia_orange), for the botanists among us.
-
-Let's create a toy program to model an orange tree growing over the years.  We plant the orange tree, wait for it to bear some fruit, and then pick all the oranges as soon as it does.
+Here is Ruby a forecasting model simulating annual orange fruit yield from cycling from creation to maturity.
 
 The tests in `orange_tree_spec.rb` show how all this might work together.
 
@@ -28,6 +26,6 @@ Later, it should die.
 
 #### My Solution
 
-I've accounted orange orchard yield logarithmically-or shall we say, yield-curve. 
+I've projected annual yield logarithmically-think yield-curve.
 
 <mic_dropped/>
