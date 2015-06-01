@@ -27,3 +27,7 @@ Implement an `OrangeTree#age!` instance method that will age your tree one year.
 Later, it should die.
 
 #### My Solution
+
+I've accounted orange orchard yield logarithmically-or shall we say, yield-curve. 
+
+<mic_dropped/>
