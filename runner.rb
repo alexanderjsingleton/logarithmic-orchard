@@ -23,11 +23,11 @@ until tree.dead?
 
   #these are Monsanto oranges :)
   avg_diameter = rand(70.00..76.00).round(2)
-  bushel = tree.age * 3
+  bushels = tree.age * 3
 
   puts "Year #{tree.age} Report"
   puts "Tree height: #{tree.height} feet"
-  puts "Harvest:     #{basket.count} with an average diameter of #{avg_diameter} mm, producing #{bushel}"
+  puts "Harvest: Annual yield is #{bushels} oranges with an average diameter of #{avg_diameter} mm."
   puts ""
 
   # Age the tree another year
