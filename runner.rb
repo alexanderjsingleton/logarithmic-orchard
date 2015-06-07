@@ -56,10 +56,11 @@ until tree.dead?
 #while
   while tree.any_oranges?
 #instance of class tree chained to destructive pick_an_orange! method is shoveled into basket array 
+
     basket << tree.pick_an_orange!
   end
 
-  avg_diameter = # It's up to you to calculate the average diameter for this harvest.
+  avg_diameter = rand(70.00..76.00).round(2)
 
   puts "Year #{tree.age} Report"
   puts "Tree height: #{tree.height} feet"

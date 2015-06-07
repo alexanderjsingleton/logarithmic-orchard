@@ -59,7 +59,7 @@ class OrangeTree
 
   def how_many_oranges
     @age / 2
-    # puts how_many_oranges
+    # p how_many_oranges
   end
 
 
