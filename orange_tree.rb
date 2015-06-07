@@ -58,7 +58,8 @@ class OrangeTree
   end
 
   def how_many_oranges
-    @age / 2
+    # @age / 0.25
+    Math.log(@age**100)
     # p how_many_oranges
   end
 
