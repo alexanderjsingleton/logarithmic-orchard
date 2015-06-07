@@ -16,7 +16,7 @@ until tree.dead?
 
   puts "Year #{tree.age} Report"
   puts "Tree height: #{tree.height} feet"
-  puts "Harvest:     #{tree.how_many_oranges.round(0)} oranges with an average diameter of #{avg_diameter} inches"
+  puts "Harvest:     #{tree.how_many_oranges.round(0)} oranges with an average diameter of #{avg_diameter} mm"
   puts ""
  
   tree.age!
