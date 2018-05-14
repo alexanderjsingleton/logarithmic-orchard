@@ -1,8 +1,8 @@
 # logarithmic-orchard
 
-##Summary
+## Summary
 
-Here is Ruby a forecasting model simulating annual orange orchard yield from creation to maturity.
+Here is a Ruby forecasting model simulating annual orange orchard yield from creation to maturity.
 
 The tests in `orange_tree_spec.rb` show how all this might work together.
 
