@@ -6,9 +6,9 @@ Here is a Ruby forecasting model simulating annual orange orchard yield from cre
 
 The tests in `orange_tree_spec.rb` show how all this might work together.
 
-##Objectives
+## Objectives
 
-###Objective 0 : Implement the OrangeTree and Orange classes
+### Objective 0 : Implement the OrangeTree and Orange classes
 
 Use `attr_reader`, `attr_writer`, and/or `attr_accessor` so that we can call `tree.height` and `tree.age` to get a tree's height or age, respectively.  Which of the three `attr_` methods should you be using and why?
 
